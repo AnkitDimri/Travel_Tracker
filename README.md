@@ -1,2 +1,4 @@
-# Travel_Tracker
-app Travel Tracker to track details of agent.
+
+TRAVEL TRACKER
+Motive: Help company agent to deal with travel and hotel expenses
+Built for Nanopix company
