@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:allowUndo="true"
             android:hint="eg: Delhi"
-            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
             android:layout_weight="1"
             android:padding="15dp"
             android:layout_margin="15dp"
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:allowUndo="true"
             android:hint="eg: Mumbai"
-            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
             android:layout_weight="1"
             android:padding="15dp"
             android:layout_margin="15dp"
@@ -70,10 +70,53 @@
 
     </LinearLayout>
 
-    <CalendarView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp">
+
+
+
+    <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        
-    </CalendarView>
+        android:layout_height="wrap_content"
+        android:id="@+id/in_date"
+        android:layout_weight="1"
+        android:hint="Date"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:id="@+id/btn_date" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="25dp"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/in_time" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT TIME"
+        android:id="@+id/btn_time" />
+
+    </LinearLayout>
 
 </LinearLayout>
