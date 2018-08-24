@@ -2,6 +2,8 @@ package com.example.android.traveltracker;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +16,7 @@ import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity implements
         View.OnClickListener {
-
+    private Button mybutton;
     Button btnDatePicker, btnTimePicker;
     EditText txtDate, txtTime;
     private int mYear, mMonth, mDay, mHour, mMinute;
@@ -32,7 +34,24 @@ public class MainActivity extends AppCompatActivity implements
         btnDatePicker.setOnClickListener(this);
         btnTimePicker.setOnClickListener(this);
 
+        mybutton = (Button) findViewById(R.id.next);
+
+        mybutton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+
+                /*
+                 * Intent is just like glue which helps to navigate one activity
+                 * to another.
+                 */Intent intent = new Intent(MainActivity.this,
+                        Main2Activity.class);
+                startActivity(intent); // startActivity allow you to move
+            }
+        });
     }
+
 
     @Override
     public void onClick(View v) {
@@ -80,6 +99,7 @@ public class MainActivity extends AppCompatActivity implements
             timePickerDialog.show();
         }
     }
+
 
 
 }

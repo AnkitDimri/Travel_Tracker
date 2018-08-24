@@ -2,5 +2,8 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#e53935</color>
+    <color name="myblack">#000000</color>
+    <color name="mywhite">#ffffff</color>
+    <color name="myvio">#006064</color>
 </resources>
