@@ -9,15 +9,16 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TimePicker;
-
+import android.content.Intent;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity implements
         View.OnClickListener {
 
-    Button btnDatePicker, btnTimePicker;
+    Button btnDatePicker, btnTimePicker,button;
     EditText txtDate, txtTime;
     private int mYear, mMonth, mDay, mHour, mMinute;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,19 @@ public class MainActivity extends AppCompatActivity implements
 
         btnDatePicker.setOnClickListener(this);
         btnTimePicker.setOnClickListener(this);
+        button = (Button) findViewById(R.id.MyButton);
+
+        // Capture button clicks
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent myIntent = new Intent(MainActivity.this,
+                        Main2Activity.class);
+                startActivity(myIntent);
+
+            }
+
+        });
 
     }
 

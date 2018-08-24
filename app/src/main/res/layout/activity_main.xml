@@ -89,9 +89,10 @@
         android:layout_marginRight="25dp"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="115dp"
+        android:layout_height="32dp"
         android:text="SELECT DATE"
+        android:background="@drawable/new_shap"
         android:id="@+id/btn_date" />
 
     </LinearLayout>
@@ -112,11 +113,29 @@
         android:id="@+id/in_time" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="115dp"
+        android:layout_height="32dp"
         android:text="SELECT TIME"
+        android:background="@drawable/new_shap"
         android:id="@+id/btn_time" />
 
     </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/MyButton"
+            android:layout_width="115dp"
+            android:layout_height="62dp"
+            android:layout_centerInParent="true"
+            android:text="NEXT"
+            android:background="@drawable/rounded_button"
+
+            />
+
+    </RelativeLayout>
+
 
 </LinearLayout>
