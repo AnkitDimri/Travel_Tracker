@@ -25,7 +25,8 @@
             android:layout_height="60dp"
             android:layout_marginLeft="37dp"
             android:background="@drawable/dhherw"
-            app:srcCompat="@drawable/irctc" />
+            app:srcCompat="@drawable/irctc"
+            android:onClick="OpenIrctc"/>
 
         <ImageButton
             android:id="@+id/redbus"
@@ -35,7 +36,8 @@
             android:layout_toRightOf="@+id/irctc"
             android:layout_weight="1"
             app:srcCompat="@drawable/redbus_logo"
-            android:background="@drawable/dhherw"/>
+            android:background="@drawable/dhherw"
+            android:onClick="OpenRedBus"/>
 
         <ImageButton
             android:id="@+id/metro"
@@ -45,7 +47,8 @@
             android:layout_marginLeft="27dp"
             android:layout_toRightOf="@+id/redbus"
             android:background="@drawable/dhherw"
-            app:srcCompat="@drawable/metro" />
+            app:srcCompat="@drawable/metro"
+            android:onClick="OpenMetro"/>
 
         <ImageButton
             android:id="@+id/ola"
@@ -54,7 +57,8 @@
             android:layout_marginLeft="25dp"
             app:srcCompat="@drawable/olaa"
             android:layout_toRightOf="@+id/metro"
-            android:background="@drawable/dheer" />
+            android:background="@drawable/dheer"
+            android:onClick="OpenOla"/>
 
 
 
@@ -72,7 +76,8 @@
             android:layout_weight="40"
             android:layout_marginLeft="37dp"
             android:background="@drawable/dheeraj"
-            app:srcCompat="@drawable/uber" />
+            app:srcCompat="@drawable/uber"
+            android:onClick="OpenUber"/>
 
         <ImageButton
             android:id="@+id/uts"
@@ -81,7 +86,8 @@
             android:layout_weight="40"
             android:layout_marginLeft="27dp"
             android:background="@drawable/dhherw"
-            app:srcCompat="@drawable/utsrail" />
+            app:srcCompat="@drawable/utsrail"
+            android:onClick="OpenUts"/>
 
     </LinearLayout>
 
@@ -109,7 +115,8 @@
             android:layout_height="60dp"
             android:layout_marginLeft="37dp"
             android:background="@drawable/dheerred"
-            app:srcCompat="@drawable/makemytrip" />
+            app:srcCompat="@drawable/makemytrip"
+            android:onClick="OpenMakemytrip"/>
 
         <ImageButton
             android:id="@+id/trivago"
@@ -119,7 +126,8 @@
             android:layout_toRightOf="@+id/makemytrip"
             android:layout_weight="1"
             app:srcCompat="@drawable/trivago"
-            android:background="@drawable/dhherw"/>
+            android:background="@drawable/dhherw"
+            android:onClick="OpenTrivago"/>
 
         <ImageButton
             android:id="@+id/oyo"
@@ -129,7 +137,10 @@
             android:layout_toRightOf="@+id/trivago"
             android:layout_weight="1"
             app:srcCompat="@drawable/oyo"
-            android:background="@drawable/dheer"/>
+            android:background="@drawable/dheer"
+            android:onClick="OpenOyo"/>
+
+
         <ImageButton
             android:id="@+id/goibi"
             android:layout_width="57dp"
@@ -137,19 +148,22 @@
             android:layout_marginLeft="25dp"
             app:srcCompat="@drawable/go"
             android:layout_toRightOf="@+id/oyo"
-            android:background="@drawable/dheerred" />
+            android:background="@drawable/dheerred"
+            android:onClick="OpenGoibio"/>
+
     </LinearLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/next"
+            android:id="@+id/next2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="NEXT" />
-
+            android:text="NEXT"
+            android:background="@drawable/somnext"/>
     </RelativeLayout>
 
 
