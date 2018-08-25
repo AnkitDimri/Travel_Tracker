@@ -101,6 +101,35 @@ public class MainActivity extends AppCompatActivity implements
             timePickerDialog.show();
         }
     }
-}
+
+    public void OpenGoibio(View view) {
+    }
+
+    public void OpenOyo(View view) {
+    }
+
+    public void OpenTrivago(View view) {
+    }
+
+    public void OpenMakemytrip(View view) {
+    }
+
+    public void OpenUts(View view) {
+    }
+
+    public void OpenUber(View view) {
+    }
+
+    public void OpenOla(View view) {
+    }
+
+    public void OpenMetro(View view) {
+    }
+
+    public void OpenRedBus(View view) {
+    }
+
+    public void OpenIrctc(View view) {
+    }}
 
 
