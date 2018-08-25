@@ -86,7 +86,8 @@
             android:layout_weight="40"
             android:layout_marginLeft="27dp"
             android:background="@drawable/dhherw"
-            app:srcCompat="@drawable/utsrail" />
+            app:srcCompat="@drawable/utsrail"
+            android:onClick="OpenUts"/>
 
     </LinearLayout>
 

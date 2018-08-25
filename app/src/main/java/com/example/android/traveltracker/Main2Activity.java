@@ -52,6 +52,10 @@ public class Main2Activity extends AppCompatActivity {
         goToUrl("http://www.ibibo.com/");
     }
 
+    public void OpenUts(View view) {
+        goToUrl("https://www.utsonmobile.indianrail.gov.in/RDS/login?1");
+    }
+
     private void goToUrl (String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);

@@ -4,6 +4,7 @@ import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -99,8 +100,6 @@ public class MainActivity extends AppCompatActivity implements
             timePickerDialog.show();
         }
     }
-
-
 }
 
 
