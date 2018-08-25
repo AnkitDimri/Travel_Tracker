@@ -79,6 +79,15 @@
             app:srcCompat="@drawable/uber"
             android:onClick="OpenUber"/>
 
+        <ImageButton
+            android:id="@+id/uts"
+            android:layout_width="57dp"
+            android:layout_height="60dp"
+            android:layout_weight="40"
+            android:layout_marginLeft="27dp"
+            android:background="@drawable/dhherw"
+            app:srcCompat="@drawable/utsrail" />
+
     </LinearLayout>
 
     <LinearLayout
