@@ -127,7 +127,7 @@
     android:layout_height="match_parent">
 
    <Button
-        android:id="@+id/next1"
+        android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
