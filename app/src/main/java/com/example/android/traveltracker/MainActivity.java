@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity implements
         btnDatePicker.setOnClickListener(this);
         btnTimePicker.setOnClickListener(this);
 
-        mybutton = (Button) findViewById(R.id.next1);
+
+        mybutton =  (Button) findViewById(R.id.next);
 
         mybutton.setOnClickListener(new View.OnClickListener() {
 
